@@ -1,7 +1,7 @@
 $(document).ready(function(){ // start js once document loads
 //creating a firebase reference 
 var ref = new Firebase("https://DormHacks.firebaseio.com");
-$("#submitItems").click(function(){
+$("#SubmitItems").click(function(){
    var items = $("#items").val();
    //login will recieve email and password from user
 console.log(items);
