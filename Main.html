@@ -8,14 +8,29 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>
-  <script src="js/Main.js"></script>
+   <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   
 
 
 </head>
-<body style="background-color:lightgrey;">
-<div class"container">
+<body style="background-color:black;">
+<center><div class"container">
 	<div class="col-sm-offset-11">
 		<p1>Hello User</p1>
 	</div>
@@ -24,21 +39,22 @@
     	<button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">What are you looking for?
     	<span class="caret"></span></button>
     	<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-      		<li role="presentation"><a role="menuitem" tabindex="-1" href="Ramen.html">Ramen</a></li>
+      		<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ramen</a></li>
       		<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Bottled Water</a></li>
       		<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Printing Services</a></li>
       		<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Stapler</a></li>
     	</ul>
-  	</div>
+  	</div></center>
   	
-  	
+  	<div>
   	<div class="form-group">
-    <label class="control-label col-sm-1" for="items">Post What you have:</label>
+    <label class="control-label col-sm-1" for="items"></label>
 
-    <div class="col-sm-4"> 
+    <div class="col-sm-4 col-sm-offset-3"> 
       <input type="items" class="form-control" id="items" placeholder="Enter items">
     </div>
   </div>
+</div>
   <div class="form-group"> 
     <div class="">
       <a class="btn btn-default" id = "SubmitItems" >Submit</a>
