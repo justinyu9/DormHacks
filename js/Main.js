@@ -13,7 +13,7 @@ console.log(items);
       console.log(ramen);
       ref.child("user_ramen").update({
          ramen
-  
+   
       });
       
    });
