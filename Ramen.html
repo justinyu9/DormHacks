@@ -1,10 +1,20 @@
 <!DOCTYPE html>
+<script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>
+<script src="js/Ramen.js"></script>
 <html>
 <body>
 
 <table style="width:100%" id = "table">
   <tr>
-<td>Ramen</td>
+<td>
+<script type="text/javascript">
+var stuff = JSON.parse(localStorage["ramen_test1"]);
+for (i=0; i<stuff.length;i++){
+   document.write(stuff[i] + "<br/>");
+}
+
+</script>
+</td>
 </tr>
  <tr>
 <td>Ramen</td>
