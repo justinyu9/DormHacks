@@ -21,7 +21,10 @@ $("#submit").click(function(){
     UserRef.set({
        name: name, 
        school: school
+       
+    
     });
+    window.location.replace("Login.html");
   }
 });
    
